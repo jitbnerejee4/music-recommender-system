@@ -1,7 +1,7 @@
 Name: Jit Banerjee
 Email: jitbaner@usc.edu
 Status (junior, senior, graduated): Graduate Student
-Link to Project Github: https://github.com/jitbnerejee4/music-recommender-system
+Link to Project Github: https://github.com/jitbnerejee4/music-recommender-system, https://metaphor-project-400811.uc.r.appspot.com
 
 Project Name: Music Recommender System
 

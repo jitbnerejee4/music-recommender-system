@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-md-12 col-sm-12">
+            <div class="wrapper">
+                <div class="typing-demo">
+                    Share your mood. I will find songs for you!
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-md-12 col-sm-12">
+            <div class="search-container">
+                <div class="search-box">
+                    <form #data = "ngForm" (ngSubmit)="onSubmit(data)">
+                        <input type="search" class="search-box-input" name="search" pattern=".*\S.*" required autocomplete="off" maxlength="50" ngModel placeholder="Enter your mood in 50 characters..">
+                        <button class="search-box-btn">
+                            <i class="search-box-icon fa-solid fa-magnifying-glass">Search</i>
+                        </button>
+                    </form>
+                </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+
